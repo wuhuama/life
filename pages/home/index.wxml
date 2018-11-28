@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="top">
+    <view class="img-bg"></view>
+    <view class="top-content">
+      <!-- 城市-天气信息 -->
+      <view class='current-weather'>
+        <view class='city'>
+          <text >{{currentCity}}&nbsp;{{currLocation}}</text>
+        </view>
+        <view class="temp-view">
+          <text class="temp">{{nowTemp}}</text>
+          <text>℃</text>
+        </view>
+        <view class="weather-view">
+          <text>{{condTxt}}&nbsp;|&nbsp;{{lifeType}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
