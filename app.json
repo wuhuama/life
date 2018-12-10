@@ -3,13 +3,15 @@
     "pages/home/index",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/about/index"
+    "pages/about/index",
+    "pages/ordermanage/index",
+    "pages/postalcode/index"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#ff545a",
     "navigationBarTitleText": "今天可爱了吗",
-    "navigationBarTextStyle":"black",
+    "navigationBarTextStyle":"white",
     "backgroundColor": "#ebafaf"
   },
   "tabBar": {

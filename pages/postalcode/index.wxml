@@ -1,0 +1,25 @@
+<view class="container">
+    <view class="top-view">
+        <text>邮政编码通常是用阿拉伯数字组成，代表投递邮件的邮局的一种专用代号，也是这个局投递范围内的居民和单位通信的代号.</text>
+    </view>
+    <view class="find-view">
+        <van-tabs active="{{ active }}" bind:change="onChange">
+            <van-tab title="城市查邮编">
+                <view class="select-city-view">
+                    <text>{{addressName}}</text>
+                    <view class="gline"></view>
+                </view>
+            </van-tab>
+            <van-tab title="邮编查城市">
+                <view class="input-code-view">
+                    <input type="number" bindinput="postNumInput" placeholder="请输入邮编..." />
+                    <view class="input-line"></view>
+                </view>
+            </van-tab>
+        </van-tabs>
+    </view>
+
+    <view class="botton-btn-view" bindtap="queryCityClick">
+        <button>查询</button>
+    </view>
+</view>

@@ -1,0 +1,57 @@
+.top-view {
+  width: 100%;
+  height: 50vh;
+  background: #ff545a;
+  vertical-align: top;
+  color: #fff;
+}
+.user{
+  vertical-align: top;
+  padding: 30rpx;
+  display: flex;
+  align-items: center;
+}
+.btn_author{
+  padding: 10rpx 20rpx;
+  font-size: 30rpx;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30rpx;
+  border: 5px solid #fff;
+  color: #fff;
+  line-height: 30rpx;
+  margin-top: 20rpx;
+  background-color: #ff545a;
+}
+.userinfo-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-right: 20rpx;
+}
+.userinfo-nickname {
+  color: #000;
+  font-size: 16px;
+}
+.item-list{
+  height: 100rpx;
+  display: flex;
+  align-items:center;
+  border-bottom: 1rpx solid #ff545a;
+  padding: 0 30rpx;
+  position: relative;
+}
+.item-icon {
+  width: 50rpx;
+  height: 50rpx;
+}
+.item-context-view {
+  margin-left: 15rpx;
+}
+.item-icon-next{
+  width: 32rpx;
+  height: 32rpx;
+  position: absolute;
+  right: 30rpx;
+}

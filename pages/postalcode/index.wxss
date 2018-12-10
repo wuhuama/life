@@ -1,0 +1,45 @@
+.top-view {
+    background-color: #ff545a;
+    color: #fff;
+    font-size: 14px;
+    padding: 10rpx;
+    padding-top: 30rpx;
+    height: 40vh;
+}
+.find-view {
+    height: 30vh;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 35vh;
+    background-color: #fff;
+    box-shadow: 0 4rpx 8rpx rgba(0,0,0,.3)
+}
+.botton-btn-view {
+    background-color: #fff;
+    width: 30%;
+    position: absolute;
+    top: 61vh;
+    left: 35%;
+    border-radius: 10rpx;
+    box-shadow: 0 4rpx 8rpx rgba(0,0,0,.3)
+}
+.botton-btn-view button {
+    color: #fff;
+    height: 8vh;
+    line-height: 8vh;
+    border-radius: 10rpx;
+    font-size: 36rpx;
+    background-color: #ff545a;
+}
+.select-city-view {
+    margin-top: 50rpx;
+    text-align: center;
+    color: rgba(58, 57, 56, 0.753);
+    font-size: 30rpx;
+}
+.gline {
+    border-bottom: 1rpx solid #ccc;
+    margin:20rpx 0rpx 0rpx 15%;
+    width:70%;
+}

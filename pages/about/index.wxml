@@ -1,3 +1,33 @@
-<view>
-我的
+<view class="container">
+    <view class="top-view">
+    <view class="user">
+        <button class="btn_author" wx:if="{{!hasUserInfo && canIUse}}" open-type='getUserInfo' lang='zh_CH' bindgetuserinfo="toAuthorize">
+            用户登录
+        </button>
+        <block wx:else>
+            <image class="userinfo-avatar" src="{{hasUserInfo?userInfo.avatarUrl:'../../images/user_head.png'}}" mode="cover" bindtap="getLogs"></image>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        </block>
+        </view>
+    </view>
+    <view class="item-list" bindtap="aboutClick">
+        <image class="item-icon" src="../../images/mine.png"></image>
+        <text class="item-context-view">关于我</text>
+        <image class="item-icon-next" src="../../images/go.png"></image>
+    </view>
+    <view class="item-list" bindtap="OrderClick">
+        <image class="item-icon" src="../../images/mine.png"></image>
+        <text class="item-context-view">订单管理</text>
+        <image class="item-icon-next" src="../../images/go.png"></image>
+    </view>
+    <view class="item-list" bindtap="CodeClick">
+        <image class="item-icon" src="../../images/mine.png"></image>
+        <text class="item-context-view">邮编查询</text>
+        <image class="item-icon-next" src="../../images/go.png"></image>
+    </view>
+    <view class="item-list" bindtap="moreSettingClick">
+        <image class="item-icon" src="../../images/mine.png"></image>
+        <text class="item-context-view">更多设置</text>
+        <image class="item-icon-next" src="../../images/go.png"></image>
+    </view>
 </view>

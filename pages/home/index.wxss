@@ -25,3 +25,31 @@
   flex-direction: row;
   font-size: 70rpx;
 }
+.weatherDetail {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: cenyer;
+  font-size: 40rpx;
+  position: absolute;
+  bottom: 40rpx;
+  text-align: center;
+}
+.bold{
+  font-weight: bold;
+  margin-top: 10rpx;
+}
+.future-weather-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx;
+  /* margin: 16rpx; */
+  border-bottom: 1rpx solid #fff;
+  text-align: center;
+}
+.forecast-img{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 16rpx;
+}
