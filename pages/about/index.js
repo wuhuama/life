@@ -125,7 +125,7 @@ Page({
   },
   CodeClick: function () {
     wx.navigateTo({
-      url: "pages/postalcode/index"
+      url: "/pages/postalcode/index"
     })
   }
 })

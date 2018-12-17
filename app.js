@@ -89,7 +89,7 @@ App({
     })
   },
   // 模态框, 确认
-  showModal: function (txt) {
+  showModal1: function (txt) {
     wx.showModal({
       title: '提示',
       content: txt,

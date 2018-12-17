@@ -1,0 +1,4 @@
+<view class="wdx-class wdx-acccordion {{ current ? 'wdx-accordion--current': ''}}" bindtap="onTap">
+
+
+</view>
