@@ -32,7 +32,7 @@
         bind:close="toggleRightPopup"
         >
         <view class="pop-page">
-            <scroll-view scroll-y="true" class="params-setting-croll-view">
+            <scroll-view scroll-y="true" class="parmas-setting-croll-view">
                 <view class="list-view" wx:for="{{postalCodeList}}">
                     <view class="item-view">
                         <text>{{index+1}}.省份: </text>
