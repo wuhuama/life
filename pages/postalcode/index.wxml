@@ -47,7 +47,7 @@
                         <text>{{item.district}}</text>
                     </view>
                     <van-collapse value="{{ activeNames }}">
-                        <van-collapse-item title="街道/村：点击查看详情" name="">
+                        <van-collapse-item title="街道/村：点击查看详情" name="1">
                             {{item.address}}
                         </van-collapse-item>
                     </van-collapse>
